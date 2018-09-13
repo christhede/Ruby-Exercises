@@ -1,7 +1,7 @@
-def greeting(name)
-	puts "Hi" + name + "great to meet you"
+def greet(person)
+	puts "hello, " + person
 end
 
-puts "Hi, what's your name?"
-greeting(gets.chomp)
+greet("john")
+greet(1)
 
