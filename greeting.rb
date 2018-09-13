@@ -1,5 +1,7 @@
-def scream(words)
-  	words = words + "!!!!"
+def greeting(name)
+	puts "Hi" + name + "great to meet you"
 end
 
-puts scream("Yippeee")
+puts "Hi, what's your name?"
+greeting(gets.chomp)
+

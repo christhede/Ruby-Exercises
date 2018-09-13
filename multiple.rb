@@ -1,0 +1,1 @@
+['a', 'b', 'c'].map { |letter| puts "I like the letter: #{letter}"}
