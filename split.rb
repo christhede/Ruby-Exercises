@@ -1,7 +1,4 @@
-a = ['white snow', 'winter wonderland', 'melting ice',
-     'slippery sidewalk', 'salted roads', 'white trees']
-
-a = a.map { |word| word.split }
-a = a.flatten
-
-puts a
+s = 'abc def ghi,jkl mno pqr,stu vwx yz'
+puts s.split
+puts s.split(',')
+puts s.split(',', 2).inspect
