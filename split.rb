@@ -1,4 +1,4 @@
 s = 'abc def ghi,jkl mno pqr,stu vwx yz'
-puts s.split
-puts s.split(',')
+puts s.split.inspect
+puts s.split(',').inspect
 puts s.split(',', 2).inspect
