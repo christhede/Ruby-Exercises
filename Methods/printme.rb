@@ -1,10 +1,9 @@
-def greeting
-  puts 'Hello!'
+def hello  
+	"Hello"
 end
 
-number_of_greetings = 2
-
-while number_of_greetings > 0 
-	greeting
-	number_of_greetings -= 1
+def world 
+	"world."
 end
+
+puts "#{hello} #{world}"
