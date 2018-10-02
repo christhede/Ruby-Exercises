@@ -13,4 +13,4 @@ def get_quote(person)
 end
 
 puts 'Confucius says:'
-puts get_quote('Confucius')
+puts '"' + get_quote('Confucius') + '"'
